@@ -482,7 +482,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .row p {
- padding: 30px;
+ padding: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -494,19 +494,19 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-intro {
-  padding: 6em 0 4em 0;
+  padding: 1em 0 1em 0;
 }
 #fh5co-intro h2 {
   font-size: 40px;
-  line-height: 44px;
+  line-height: 24px;
 }
 #fh5co-intro h2 span {
   font-family: "Open Sans", arial, sans-serif !important;
-  font-size: 16px;
+  font-size: 20px;
 }
 #fh5co-intro h2 span em {
   color: rgba(0, 0, 0, 0.3);
-  margin-right: 5px;
+  margin-right: 3px;
 }
 
 .portfolio-grid {
@@ -1217,6 +1217,85 @@ input[type="text"] {
     float: left;
     padding-top: 30px;
   }
+}
+
+.button {
+  border-radius: 2px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button2 {
+  border-radius: 2px;
+  opacity:30;
+  background-color:black;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 25px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 
